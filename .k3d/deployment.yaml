@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: cr.yandex/crpadr6cof4uabegtq6c/my_app:v1
+        image: cr.yandex/crpadr6cof4uabegtq6c/my_app:normal
         ports:
-        - containerPort: 8081
+        - containerPort: 80
